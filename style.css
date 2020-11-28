@@ -11,13 +11,13 @@ body{
     min-height: 100vh;
 }
 
-.container{
+.textbox{
     max-width: 800px;
     margin: auto;
     padding: 50px;
 }
 
-.txtb{
+.prompt{
     width: 100%;
     border: none;
     border-bottom: 2px solid #fff;
