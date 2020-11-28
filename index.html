@@ -1,3 +1,6 @@
+<!--https://www.youtube.com/watch?v=h7gZY3_3Dqs-->
+
+
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
@@ -36,14 +39,18 @@
                     p.remove();
                 });
             });
+        
             var check = $("<i class='fas fa-check'></i>").click(function(){
                 var p = $(this).parent();
                 p.fadeOut(function(){
                     $(".comp").append(p);
+                    
                     p.fadeIn();
+                    
                 });
                 $(this).remove();
             });
+            
 
             task.append(del, check);
             $(".todo").append(task);
